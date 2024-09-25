@@ -89,7 +89,12 @@ body{
     margin-bottom: 20px;
     padding-bottom: 40px;
     color: #ffffff;
+    text-align: left;
   }
   h1{
+    text-align: center;
+    padding: 50px;
+  }
+  .Textbutton{
     text-align: center;
   }

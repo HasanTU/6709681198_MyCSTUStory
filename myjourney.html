@@ -9,18 +9,33 @@
     <script>
         function changeText(buttonID) {
             var newText = "";
-            if(buttonID === 'game') {
+            if(buttonID === 'like') {
                 newText = 
-                "<ol class='text-below'>If you want to play togeter, just text me. I will<br> respond you as soon as the text from you is pop up<li>Arena of Valer</li> <li>Team fight Tactic</li> <li>Gansgin impack.</li> <li>Honkai Star Rail</li></ol>";
+                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first memory I have is from around kindergarten. I was a shy child, hesitant to stand out in any activities, <br>\
+                whether it was playing games, birthday parties, or Hari Raya celebrations. However, I was also very mischievous. <br>\
+                I once turned off my mom’s motorcycle switch while she was driving me to school. I cried my eyes out because I didn’t <br>\
+                want to go to school. I even challenged others to see who could collect more money during Hari Raya. These seemingly <br>\
+                insignificant moments reflect some inherent traits, such as my desire to win and my fear of facing certain things.";
             } else if(buttonID === 'work') {
                 newText = 
-                "<ol class='text-below'>Actualy,I do not know what jobs i like <br>but it's okey to set a target and try<li>Artificial intelegence</li> <li>Computer Network Architect</li><li> Software Developer</li> <li>Computer and Information Systems Managers</li> <li>IT Project Manager</li></ol>";
-            } else if(buttonID === 'like') {
+                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first significant change in my life was when I started going to school on my own using the school bus. I had <br>\
+                a close friend who was an older student. We played paper wars and flicked rubber bands at our arch-enemies from <br>\
+                class 2/3. It was a time of truly being a child, not fully understanding the difference between right and wrong. <br>\
+                I loved trying new things, became braver, and enjoyed life with the mischievousness typical of an elementary school kid. <br>\
+                Although it was a fun period, it passed by surprisingly quickly.";
+            } else if(buttonID === 'game') {
                 newText = 
-                "<ol class='text-below'>If we got something similar, maybe we can<br> set an appointment and talk about these topics.<li>I like to lesten podcase</li><li> watching 9ARM Chanel</li> <li>Playing Games</li><li> Wacthing Business and Invesment</li> Video</ol>";
+                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A time of discovery and growth, one of the significant milestones in life. It was a period when I tried everything <br>\
+                I wanted to try, learned everything I wanted to know, and saw things I wanted to change. I searched for what I wanted <be>\
+                to be and what I wanted to do until I finally found what I loved and dreamed of becoming. I was fortunate to find <br>\
+                myself at a young age, but I also faced many challenges, such as a fear of confrontation and a shy nature. These issues <br>\
+                were obstacles for me, but they never made me give up.";
             } else if(buttonID === 'look') {
                 newText = 
-                "<ol class='text-below'>If we got something similar, maybe we can<br> set an appointment and talk about these topics.<li>I like to lesten podcase</li><li> watching 9ARM Chanel</li> <li>Playing Games</li><li> Wacthing Business and Invesment</li> Video</ol>";
+                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first time I experienced complete freedom was also a period of significant decisions for me. It was a pivotal moment <br>\
+                where even a small mistake could have led me to become someone I didn’t want to be. It was a time of learning and honing <br>\
+                various skills to prepare for pursuing my dreams. I have reached the present with a passion for certain things, ready to <br>\
+                develop and refine my skills. One day, these will be the factors that help me become the person I aspire to be.";
             } 
             document.getElementById('text').innerHTML = newText;
         }
@@ -28,18 +43,17 @@
 
 </head>
 <body>
-    <h1>The Journey of Dekshine San</h1>
-
-    <button class="my-button1" id="like" onclick="changeText('like')">What I Like</button>
-    <button class="my-button" id="work" onclick="changeText('work')">Future Jobs</button>
-    <button class="my-button" id="game" onclick="changeText('game')">San's Game</button>
-    <button class="my-button" id="look" onclick="changeText('look')">Personal Style</button>
-    <P id='text'>This is the first time I have had the opportunity <br>
-        to create my own website. It’s very exciting! I hope you <br>
-        like it. If you see any areas that need improvement, feel <br>
-        free to let me know. I will try to make it better. Let’s <br>
-        develop ourselves together. I guarantee it will be fun. <br>
-        So, let me introduce myself. Let's Click the button to know me!</P>
+    <div class="Textbutton">
+        <h1>The Journey of Dekshine San</h1>
+        <button class="my-button1" id="like" onclick="changeText('like')">The first Remember</button>
+        <button class="my-button" id="work" onclick="changeText('work')">Primary Education</button>
+        <button class="my-button" id="game" onclick="changeText('game')">Secondary Education</button>
+        <button class="my-button" id="look" onclick="changeText('look')">In The University</button>
+    </div>
+    <P id='text'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Life is a journey filled with twists and turns, each moment shaping who we are and who we aspire to be. <br>
+    From the innocence of childhood to the challenges of adulthood, every experience teaches us valuable lessons. As we <br>
+    navigate through successes and setbacks, we discover our passions, confront our fears, and strive to become the best <br>
+    versions of ourselves. This journey is unique for everyone, and now, I invite you to join me as I share mine.</P>
 
 </body>
 </html>
