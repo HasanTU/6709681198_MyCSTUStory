@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My future</title>
+    <link rel="stylesheet" href="myfuturestyle.css">
+
+    <script>
+        function changeText(buttonID) {
+            var newText = "";
+            if(buttonID === 'like') {
+                newText = 
+                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have planned that the transition from high school to university is a crucial point in starting to pursue <br>\
+                my dreams. It is the first step toward success. Therefore, I want to live my university life with two main goals. <br>\
+                First, to build good relationships with friends, seniors, professors, and also to be a good friend to myself.<br>\
+                Second, to learn essential skills such as adapting to people and environments, developing high resilience, <br>\
+                managing time effectively, and most importantly, the skill of self-directed learning.";
+            } else if(buttonID === 'work') {
+                newText = 
+                "In the initial phase of my career, I will apply the various skills I learned at university to real-world situations <br>\
+                while refining these skills to become my personal strengths. The second phase will involve studying finance, investment, <br>\
+                entrepreneurship, and business creation, as well as starting to save money in preparation for gaining enough knowledge <br>\
+                or waiting for the right time and opportunity to start my own business. The first phase of my life will be relatively <br>\
+                short because my true career will begin when I become an entrepreneur.";
+            } else if(buttonID === 'game') {
+                newText = 
+                "This will be the time in my career when I dedicate all my energy and effort to building a business that can turn my dreams <br>\
+                into reality. I will do this by leveraging the knowledge, connections, and skills I have accumulated, and by creating opportunities <br>\
+                for myself to become a young leader who transforms my hometown. With the help of God, nothing is impossible. My faith in God's plan <br>\
+                will give me the strength to persevere through challenges and successfully build a business that fulfills my dreams.";
+            } else if(buttonID === 'look') {
+                newText = 
+                "There are many things people dream of accomplishing before the final moments of their life arrive. I am one of those <br>\
+                who dreams of improving my hometown, both in terms of its prosperity and the well-being of its people. This way, I can <br>\
+                pass away peacefully, knowing I have lived as a good servant of God. No matter what happens or how the final moments <br>\
+                of my life unfold, I will have no regrets.";
+            } 
+            document.getElementById('text').innerHTML = newText;
+        }
+    </script>
     
+
 </head>
 <body>
-    
+    <div class="Textbutton">
+        <h1>The Future Plan of Dekshine San</h1>
+        <button class="my-button1" id="like" onclick="changeText('like')">Life in The University</button>
+        <button class="my-button" id="work" onclick="changeText('work')">The First phase of Jobs</button>
+        <button class="my-button" id="game" onclick="changeText('game')">Being a Business Man</button>
+        <button class="my-button" id="look" onclick="changeText('look')">Before My Time Ending</button>
+    </div>
+    <P id='text'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everyone has dreams that shape their future, and today, I’d like to share mine with you. My dreams are centered around<br> 
+        personal growth, exploring new horizons, and making a positive impact on the world. I aspire to embrace new experiences, <br>
+        learn continuously, and contribute to the well-being of others. By sharing my journey and aspirations, I hope to inspire <br>
+        and connect with those who share similar passions and dreams. Let’s embark on this exciting journey together!</P>
+
 </body>
 </html>
