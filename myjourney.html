@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My journey</title>
+    <link rel="stylesheet" href="myjourneystyle.css">
+
+    <script>
+        function changeText(buttonID) {
+            var newText = "";
+            if(buttonID === 'game') {
+                newText = 
+                "<ol class='text-below'>If you want to play togeter, just text me. I will<br> respond you as soon as the text from you is pop up<li>Arena of Valer</li> <li>Team fight Tactic</li> <li>Gansgin impack.</li> <li>Honkai Star Rail</li></ol>";
+            } else if(buttonID === 'work') {
+                newText = 
+                "<ol class='text-below'>Actualy,I do not know what jobs i like <br>but it's okey to set a target and try<li>Artificial intelegence</li> <li>Computer Network Architect</li><li> Software Developer</li> <li>Computer and Information Systems Managers</li> <li>IT Project Manager</li></ol>";
+            } else if(buttonID === 'like') {
+                newText = 
+                "<ol class='text-below'>If we got something similar, maybe we can<br> set an appointment and talk about these topics.<li>I like to lesten podcase</li><li> watching 9ARM Chanel</li> <li>Playing Games</li><li> Wacthing Business and Invesment</li> Video</ol>";
+            } else if(buttonID === 'look') {
+                newText = 
+                "<ol class='text-below'>If we got something similar, maybe we can<br> set an appointment and talk about these topics.<li>I like to lesten podcase</li><li> watching 9ARM Chanel</li> <li>Playing Games</li><li> Wacthing Business and Invesment</li> Video</ol>";
+            } 
+            document.getElementById('text').innerHTML = newText;
+        }
+    </script>
+
+</head>
+<body>
+    <h1>The Journey of Dekshine San</h1>
+
+    <button class="my-button1" id="like" onclick="changeText('like')">What I Like</button>
+    <button class="my-button" id="work" onclick="changeText('work')">Future Jobs</button>
+    <button class="my-button" id="game" onclick="changeText('game')">San's Game</button>
+    <button class="my-button" id="look" onclick="changeText('look')">Personal Style</button>
+    <P id='text'>This is the first time I have had the opportunity <br>
+        to create my own website. It’s very exciting! I hope you <br>
+        like it. If you see any areas that need improvement, feel <br>
+        free to let me know. I will try to make it better. Let’s <br>
+        develop ourselves together. I guarantee it will be fun. <br>
+        So, let me introduce myself. Let's Click the button to know me!</P>
+
+</body>
+</html>
