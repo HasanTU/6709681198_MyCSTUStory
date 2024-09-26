@@ -159,3 +159,17 @@ body{
     left: 370px;
     top: 420px;
 }
+#linkF{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: block;
+    margin-top: 20px;    
+}
+#linkJ{
+    position: absolute;
+    top: 0;
+    left: 56%;
+    display: block;
+    margin-top: 20px;   
+}

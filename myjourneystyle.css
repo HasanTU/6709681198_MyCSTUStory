@@ -108,3 +108,17 @@ body{
     top: 400px;
     left: 120px;
   }
+#linkF{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: block;
+    margin-top: 20px;    
+}
+#linkS{
+    position: absolute;
+    top: 0;
+    left: 56%;
+    display: block;
+    margin-top: 20px;   
+}
