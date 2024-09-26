@@ -105,8 +105,6 @@ body{
     padding: 60px;
     height: auto;
     position: absolute;
-    padding: auto;
-    top: 550px;
+    top: 400px;
     left: 120px;
-    float: inline-end;
   }

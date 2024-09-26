@@ -96,4 +96,13 @@ body{
   }
   .Textbutton{
     text-align: center;
+    clear: both;
+  }
+  .image-business{
+    width: 400px;
+    padding: 60px;
+    height: auto;
+    position: absolute;
+    top: 400px;
+    left: 120px;
   }
