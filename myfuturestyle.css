@@ -111,12 +111,14 @@ body{
     top: 0;
     left: 40%;
     display: block;
-    margin-top: 20px;    
+    margin-top: 20px; 
+    color: #ffffff;   
 }
 #linkJ{
     position: absolute;
     top: 0;
     left: 56%;
     display: block;
-    margin-top: 20px;   
+    margin-top: 20px;
+    color: #ffffff;   
 }
