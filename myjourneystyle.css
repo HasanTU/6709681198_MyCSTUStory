@@ -97,4 +97,16 @@ body{
   }
   .Textbutton{
     text-align: center;
+    clear: both;
+
+  }
+  .img-baby{
+    width: 400px;
+    padding: 60px;
+    height: auto;
+    position: absolute;
+    padding: auto;
+    top: 550px;
+    left: 120px;
+    float: inline-end;
   }
